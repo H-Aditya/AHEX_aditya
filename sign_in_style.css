@@ -38,20 +38,7 @@ body {background-color: #f6feff;}
         margin: 0 0 15px;
         position: relative;        
     }
-    .signin h2:before, .signin h2:after{
-        content: "";
-        height: auto;
-        top: auto;
-        width: auto;
-        background: black;
-        position: absolute;       
-    }   
-    .signin h2:before{
-        left: 0;
-    }
-    .signin h2:after{
-        right: 0;
-    }
+    
     .signin .description{
         text-align: center;
         color: #969696;
@@ -69,7 +56,6 @@ body {background-color: #f6feff;}
     }
       .signin a{
         color: #0d0d0d;
-        text-decoration: underline;
     }
     .signin a:hover{
         text-decoration: none;
