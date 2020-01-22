@@ -20,12 +20,7 @@ body {background-color: #f6feff;}
     .form-control, .btn{        
         border-radius: 10px;
     }
-       #telnumber{
-   /*
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;*/
 
-   }
     .signin{
         width: 400px;
         margin: 0 auto;
