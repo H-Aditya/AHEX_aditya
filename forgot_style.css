@@ -1,0 +1,91 @@
+body {background-color: #f6feff;}
+
+         #phone {
+    border-radius: 10px;
+    min-width:20px;
+    min-height: 40px;    
+    outline: none !important;
+    /*border-bottom-right-radius: 0;
+    border-top-right-radius: 0;*/
+       }
+   select:focus{
+    border-color: #0044ff;
+   }
+    .form-control{
+        color: black;
+    }
+    .form-control:focus{
+        border-color: #0044ff;
+    }
+    .form-control, .btn{        
+        border-radius: 10px;
+    }
+       #telnumber{
+   /*
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;*/
+
+   }
+    .forgot{
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px 0;
+        opacity: 0.75;
+    }
+    .forgot h2{
+        text-align: center;
+        color: black;
+        margin: 0 0 15px;
+        position: relative;        
+    }
+    .forgot h2:before, .forgot h2:after{
+        content: "";
+        height: auto;
+        top: auto;
+        width: auto;
+        background: black;
+        position: absolute;       
+    }   
+    .forgot h2:before{
+        left: 0;
+    }
+    .forgot h2:after{
+        right: 0;
+    }
+    .forgot .description{
+        text-align: center;
+        color: #969696;
+        margin-bottom: 30px;        
+    }
+    .forgot form{
+        border-radius: 10px;
+        margin-bottom: 15px;
+        background: #f2f3f7;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+        padding: 30px;
+    }
+    .forgot .form-group{
+        margin-bottom: 20px;
+    }
+      .forgot a{
+        color: #0d0d0d;
+        text-decoration: underline;
+    }
+    .forgot a:hover{
+        text-decoration: none;
+    }
+  
+    .forgot .btn{        
+        font-size: 16px;
+        font-weight: bold;      
+        min-width: 140px;
+        outline: none !important;
+    }
+    .forgot .row div:first-child{
+        padding-right: 10px;
+    }
+    .forgot .row div:last-child{
+        padding-left: 10px;
+    }       
+
+   

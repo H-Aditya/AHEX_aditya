@@ -1,0 +1,91 @@
+body {background-color: #f6feff;}
+
+         #phone {
+    border-radius: 10px;
+    min-width:20px;
+    min-height: 40px;    
+    outline: none !important;
+    /*border-bottom-right-radius: 0;
+    border-top-right-radius: 0;*/
+       }
+   select:focus{
+    border-color: #0044ff;
+   }
+    .form-control{
+        color: black;
+    }
+    .form-control:focus{
+        border-color: #0044ff;
+    }
+    .form-control, .btn{        
+        border-radius: 10px;
+    }
+       #telnumber{
+   /*
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;*/
+
+   }
+    .signin{
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px 0;
+        opacity: 0.75;
+    }
+    .signin h2{
+        text-align: center;
+        color: black;
+        margin: 0 0 15px;
+        position: relative;        
+    }
+    .signin h2:before, .signin h2:after{
+        content: "";
+        height: auto;
+        top: auto;
+        width: auto;
+        background: black;
+        position: absolute;       
+    }   
+    .signin h2:before{
+        left: 0;
+    }
+    .signin h2:after{
+        right: 0;
+    }
+    .signin .description{
+        text-align: center;
+        color: #969696;
+        margin-bottom: 30px;        
+    }
+    .signin form{
+        border-radius: 10px;
+        margin-bottom: 15px;
+        background: #f2f3f7;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+        padding: 30px;
+    }
+    .signin .form-groin{
+        margin-bottom: 20px;
+    }
+      .signin a{
+        color: #0d0d0d;
+        text-decoration: underline;
+    }
+    .signin a:hover{
+        text-decoration: none;
+    }
+  
+    .signin .btn{        
+        font-size: 16px;
+        font-weight: bold;      
+        min-width: 140px;
+        outline: none !important;
+    }
+    .signin .row div:first-child{
+        padding-right: 10px;
+    }
+    .signin .row div:last-child{
+        padding-left: 10px;
+    }       
+
+   
