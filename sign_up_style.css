@@ -1,12 +1,10 @@
 body {background-color: #f6feff;}
 
-         #phone {
+#phone {
     border-radius: 10px;
     min-width:20px;
     min-height: 40px;    
     outline: none !important;
-    /*border-bottom-right-radius: 0;
-    border-top-right-radius: 0;*/
        }
    select:focus{
     border-color: #0044ff;
@@ -20,12 +18,7 @@ body {background-color: #f6feff;}
     .form-control, .btn{        
         border-radius: 10px;
     }
-       #telnumber{
-   /*
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;*/
-
-   }
+       
     .signup{
         width: 400px;
         margin: 0 auto;
@@ -38,20 +31,7 @@ body {background-color: #f6feff;}
         margin: 0 0 15px;
         position: relative;        
     }
-    .signup h2:before, .signup h2:after{
-        content: "";
-        height: auto;
-        top: auto;
-        width: auto;
-        background: black;
-        position: absolute;       
-    }   
-    .signup h2:before{
-        left: 0;
-    }
-    .signup h2:after{
-        right: 0;
-    }
+    
     .signup .description{
         text-align: center;
         color: #969696;
@@ -69,7 +49,7 @@ body {background-color: #f6feff;}
     }
       .signup a{
         color: #0d0d0d;
-        text-decoration: underline;
+        
     }
     .signup a:hover{
         text-decoration: none;
